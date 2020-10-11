@@ -229,10 +229,13 @@ const Home = () => {
                 <Grid container  alignItems="center" direction="row" style={{height:"65vh"}}>
                   <Grid item >
                     <Grid container justify="center">
-                    <Grid item >
-                  <Typography data-aos="fade-up" className={classes.heading1me}>
-              Your Health. Our Priority.
-            </Typography>
+                    <Grid item  xs={12}>
+                      <Grid container justify="center">
+                      <Typography data-aos="fade-up" className={classes.heading1me} style={{textAlign:"center"}}>
+                        Your Health. Our Priority.
+                      </Typography>
+                      </Grid>
+
                   </Grid>
                   <Grid item xs={12}>
                     <Grid container justify="center">
