@@ -13,14 +13,8 @@ const About = () => {
           </Typography>
           <div className="text">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              quibusdam non vero dignissimos quod atque laboriosam,
-              reprehenderit deserunt illum optio magnam magni harum sed
-              temporibus assumenda nulla, qui pariatur! Expedita aperiam
-              accusamus modi? Possimus ea, enim ducimus consectetur tenetur
-              accusamus modi? Possimus ea, enim ducimus consectetur tenetur
-              error nobis ullam, amet quod cum commodi sunt nesciunt sapiente
-              impedit.
+            We at Salk are utilizing technology to help people achieve their health goals easier, faster, 
+            and more effectively by combining medical testing, expert consultations, product recommendations, and progress tracking all in a single customer experience.
             </p>
           </div>
         </div>
