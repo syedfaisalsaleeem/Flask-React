@@ -64,8 +64,8 @@ const Phone2 = (props) => {
           
           </Grid>
           </Grid>
-          <Grid item xs="12" justify="center" className="mobileImg">
-            <img src={props.screen} alt="" />
+          <Grid item xs="12" direction="column" justify="center" alignItems="flex-start" className="mobileImg">
+            <img src={props.screen} alt="" style={{height:"auto"}}/>
           </Grid>
           <Grid item xs="12"  >
             <Grid container justify="center" style={{textAlign: "center",paddingBottom:"2rem",fontWeight:"400",opacity:"70%",fontSize: "20px"}}>
@@ -108,9 +108,11 @@ const Phone2 = (props) => {
           
             container
             justify="flex-start"
+            alignItems="flex-start"
+            direction="column" 
             className="desktopImg"
           >
-            <img src={props.screen} alt="" />
+            <img style={{height:"auto"}} src={props.screen} alt="" />
           </Grid>
         </Grid>
       )}
